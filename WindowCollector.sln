@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCollector", "WindowCollector\WindowCollector.csproj", "{9FBF8451-6C89-4763-94EB-C1AEB8F9DBCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBF8451-6C89-4763-94EB-C1AEB8F9DBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBF8451-6C89-4763-94EB-C1AEB8F9DBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBF8451-6C89-4763-94EB-C1AEB8F9DBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBF8451-6C89-4763-94EB-C1AEB8F9DBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB4F2C8-6C51-439C-B18D-84B02BF2F3A8}
+	EndGlobalSection
+EndGlobal
