@@ -91,30 +91,10 @@ namespace WindowCollector
         #endregion
 
         #region Get Process Exe File Path
-        //[DllImport("kernel32.dll")]
-        //private static extern bool QueryFullProcessImageName([In]IntPtr hprocess, [In]uint dwFlags,
-        //    [Out]StringBuilder lpExeName, ref int size);
-
-        //[DllImport("kernel32.dll")]
-        //public static extern IntPtr OpenProcess(
-        //    )
-
-        //public static string GetMainModuleFileName(IntPtr hWnd, int buffer = 1024)
-        //{
-        //    //var fileNameBuilder = new StringBuilder(buffer);
-        //    //int bufferLength = fileNameBuilder.Capacity + 1;
-        //    //return QueryFullProcessImageName(hWnd, 0, fileNameBuilder, ref bufferLength) ?
-        //    //    fileNameBuilder.ToString() :
-        //    //    null;
-
-
-        //}
-
         public string GetProcessPath(Process proc)
         {
             return proc.MainModule.FileName;
         }
-
         #endregion
     }
 }
